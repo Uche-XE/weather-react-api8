@@ -1,10 +1,18 @@
-import React from 'react';
+import {useContext} from 'react';
+import DropDown from './components/DropDown';
+import Weather from './components/Weather';
+
+
 import './App.css';
 
 const App = () => {
+
   return (
     <main>
-     <h1>Welcome to React</h1>
+   
+   <DropDown />
+
+  <Weather/>
     </main>
   );
 }
